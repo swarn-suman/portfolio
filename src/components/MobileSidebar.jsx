@@ -15,6 +15,7 @@ import {
   FaBriefcase
 } from 'react-icons/fa';
 
+// MobileSidebar component
 function MobileSidebar({ isOpen, onClose }) {
   const socialLinks = [
     { name: 'LinkedIn', url: 'https://www.linkedin.com/in/swarnsuman/', icon: FaLinkedinIn, color: '#0077B5' },
