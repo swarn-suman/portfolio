@@ -89,7 +89,7 @@ function HeroSection() {
 
           {/* Minimal Skills - Just 2 key ones */}
           <div className="flex gap-4 justify-center animate-fade-in" style={{ animationDelay: '1.4s' }}>
-            {['AI/ML', 'UI/UX'].map((skill, index) => (
+            {['Backend Development', 'DS/ML'].map((skill, index) => (
               <span
                 key={index}
                 className="px-4 py-2 bg-zinc-900/30 border border-[#ff470f]/30 rounded-full text-sm text-stone-400 backdrop-blur-sm font-medium"
@@ -201,7 +201,7 @@ function HeroSection() {
             'Deep Learning',  
             'C/C++',    
             'Python',
-            'React'
+            'React',
           ].map((skill, index) => (
             <span
               key={index}
