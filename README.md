@@ -122,7 +122,7 @@ To personalize the portfolio, update the following files:
 
 ## Author
 
-**Rahul Sharma**
+**Swarn Suman**
 
 * GitHub: [@swarn-suman](https://github.com/swarn-suman)
 * LinkedIn: [@swarnsuman](https://www.linkedin.com/in/swarnsuman/)
