@@ -1,4 +1,4 @@
-# Personal Portfolio
+# Personal Web Portfolio
 
 This is a **responsive personal portfolio website** built with **React, Vite, and Tailwind CSS**. I have designed it to showcase my **skills, projects, and experience** in a clean, modern, and interactive way.
 
