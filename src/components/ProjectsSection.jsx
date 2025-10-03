@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { ExternalLink, Github, Brain, Eye, MessageSquare, BarChart3, Sparkles, Code2, Sprout, Laptop, Smartphone, Download, Globe, Wrench } from 'lucide-react';
+import { ExternalLink, Github, Brain, Eye, MessageSquare, BarChart3, Sparkles, Code2, Sprout, Laptop, Smartphone, Download, Globe, Mails, Wrench } from 'lucide-react';
 
 const ProjectsSection = () => {
   const sectionRef = useRef(null);
@@ -25,29 +25,17 @@ const ProjectsSection = () => {
   }, []);
 
   const projects = [
-      {
+    {
       id: 1,
-      title: "Typeahead Search Feature",
-      description: "This project improved recruiters on Lagoon platform productivity by intelligently using search history. It automatically saves queries and filters, providing personalized, ranked suggestions as recruiters type. This feature lets users quickly reuse effective searches, saving time and ensuring consistency.",
-      tech: ["Express.js", "MongoDB", "Tailwind CSS", "React", "Redis"],
-      icon: <Globe className="w-5 h-5" />,
-      github: "https://github.com/swarn-suman/Typeahead-Feature",
-      image: "typeahead.png",
+      title: "Bulk Mail Sender",
+      description: "A modern, full-stack Bulk Email Sender web application that allows users to create email templates, upload recipient lists via CSV, attach resumes, and send personalized bulk emails. It also maintains a history of sent emails, showing the subject, recipients, and status.",
+      tech: ["Express.js", "MongoDB", "Tailwind CSS", "React", "Nodemailer", "Bcrypt"],
+      icon: <Mails  className="w-5 h-5" />,
+      github: "https://github.com/swarn-suman/Bulk-mail_sender",
+      image: "Screenshot 1.png",
       featured: true,
       gradient: "from-cyan-500/20 via-blue-500/20 to-purple-500/20",
       color: "#22c55e",
-      },
-      {
-      id: 2,
-      title: "Techfest Website",
-      description: "A modern, responsive website for my college's tech festival featuring interactive design, event schedules, and registration systems.",
-      tech: ["HTML", "CSS", "JavaScript", "Figma"],
-      icon: <Globe className="w-5 h-5" />,
-      github: "https://github.com/rahulsiiitm/My-Website",
-      demo: "https://my-test-website-eta.vercel.app/",
-      image: "techfest.png",
-      gradient: "from-cyan-500/20 via-blue-500/20 to-purple-500/20",
-      color: "#06b6d4"
     },
 
     {
@@ -61,18 +49,35 @@ const ProjectsSection = () => {
       gradient: "from-blue-500/20 via-cyan-500/20 to-indigo-500/20",
       color: "#3b82f6"
     },
+
+
+    {
+      id: 2,
+      title: "Typeahead Search Feature",
+      description: "This project improved recruiters on Lagoon platform productivity by intelligently using search history. It automatically saves queries and filters, providing personalized, ranked suggestions as recruiters type. This feature lets users quickly reuse effective searches, saving time and ensuring consistency.",
+      tech: ["Express.js", "MongoDB", "Tailwind CSS", "React", "Redis"],
+      icon: <Globe className="w-5 h-5" />,
+      github: "https://github.com/swarn-suman/Typeahead-Feature",
+      image: "typeahead.png",
+      featured: true,
+      gradient: "from-cyan-500/20 via-blue-500/20 to-purple-500/20",
+      color: "#22c55e",
+    },
+
+
     {
       id: 4,
       title: "Personal Portfolio",
       description: "My interactive portfolio showcasing projects, skills, and experiments with creative web design.",
       tech: ["React", "Tailwind CSS", "Framer Motion"],
       icon: <Laptop className="w-5 h-5" />,
-      github: "https://github.com/rahulsiiitm/portfolio",
+      github: "https://github.com/swarn-suman/portfolio",
       image: "portfolio.png",
       gradient: "from-purple-500/20 via-pink-500/20 to-red-500/20",
       color: "#a855f7",
       type: "portfolio"
     },
+
     {
       id: 5,
       title: "More Coming Soon...",
