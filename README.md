@@ -23,8 +23,6 @@ This is a **responsive personal portfolio website** built with **React, Vite,** 
 * React
 * Vite
 * Tailwind CSS
-* Framer Motion (animations)
-* React Intersection Observer (scroll animations)
 
 **Icons:**
 
