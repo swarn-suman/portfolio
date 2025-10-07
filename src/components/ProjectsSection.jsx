@@ -39,19 +39,6 @@ const ProjectsSection = () => {
     },
 
     {
-      id: 3,
-      title: "Grievance System",
-      description: "The Grievance System, is a comprehensive platform designed to support multiple users in resolving grievances efficiently. It allows users to submit complaints and track their status seamlessly. Administrators can manage all complaints and users through an intuitive interface. The system also features Optical Character Recognition (OCR) for users unable to type their complaints, and Speech-to-Text functionality for those who prefer verbal communication, ensuring accessibility for all users.",
-      tech: ["HTML", "Javascript", "php"],
-      icon: <MessageSquare className="w-5 h-5" />,
-      github: "https://github.com/swarn-suman/Grievance-Management-System",
-      image: "grievance.jpg",
-      gradient: "from-blue-500/20 via-cyan-500/20 to-indigo-500/20",
-      color: "#3b82f6"
-    },
-
-
-    {
       id: 2,
       title: "Typeahead Search Feature",
       description: "This project improved recruiters on Lagoon platform productivity by intelligently using search history. It automatically saves queries and filters, providing personalized, ranked suggestions as recruiters type. This feature lets users quickly reuse effective searches, saving time and ensuring consistency.",
@@ -64,9 +51,33 @@ const ProjectsSection = () => {
       color: "#22c55e",
     },
 
+    {
+      id: 3,
+      title: "Web Todo & Rewards",
+      description: "A simple, fun web Todo app to help you decide what to do during your break! This project solves the problem of indecision by letting you draw a random reward activity—like watching YouTube, reading a book, or just doing nothing—at the click of a button.",
+      tech: ["HTML", "CSS","Javascript", "React.js"],
+      icon: <MessageSquare className="w-5 h-5" />,
+      github: "https://github.com/swarn-suman/web-rewards",
+      image: "web-rewards.png",
+      gradient: "from-blue-500/20 via-cyan-500/20 to-indigo-500/20",
+      color: "#3b82f6"
+    },
+
+      {
+      id: 4,
+      title: "Grievance System",
+      description: "The Grievance System, is a comprehensive platform designed to support multiple users in resolving grievances efficiently. It allows users to submit complaints and track their status seamlessly. Administrators can manage all complaints and users through an intuitive interface. The system also features Optical Character Recognition (OCR) for users unable to type their complaints, and Speech-to-Text functionality for those who prefer verbal communication, ensuring accessibility for all users.",
+      tech: ["HTML", "Javascript", "php"],
+      icon: <MessageSquare className="w-5 h-5" />,
+      github: "https://github.com/swarn-suman/Grievance-Management-System",
+      image: "grievance.jpg",
+      gradient: "from-blue-500/20 via-cyan-500/20 to-indigo-500/20",
+      color: "#3b82f6"
+    },
+
 
     {
-      id: 4,
+      id: 5,
       title: "Personal Portfolio",
       description: "My interactive portfolio showcasing projects, skills, and experiments with creative web design.",
       tech: ["React", "Tailwind CSS", "Framer Motion"],
@@ -79,7 +90,7 @@ const ProjectsSection = () => {
     },
 
     {
-      id: 5,
+      id: 6,
       title: "More Coming Soon...",
       description: "Exciting new projects are currently in development! Stay tuned for innovative solutions and creative experiments.",
       tech: ["Express", "React", "AI/ML", "..."],
