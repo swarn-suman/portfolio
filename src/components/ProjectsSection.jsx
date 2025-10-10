@@ -58,7 +58,7 @@ const ProjectsSection = () => {
       tech: ["HTML", "CSS","Javascript", "React.js"],
       icon: <MessageSquare className="w-5 h-5" />,
       github: "https://github.com/swarn-suman/web-rewards",
-      image: "web-rewards.png",
+      image: "webRewards.png",
       gradient: "from-blue-500/20 via-cyan-500/20 to-indigo-500/20",
       color: "#3b82f6"
     },
