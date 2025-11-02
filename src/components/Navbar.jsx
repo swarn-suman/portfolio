@@ -95,7 +95,7 @@ function Navbar({ onToggleSidebar, isSidebarOpen }) {
   // Handle resume download
   const downloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/swarn_resume.pdf';
+    link.href = 'public\swarn_resume.pdf';
     link.download = 'Swarn_Resume.pdf';
     link.click();
   };
