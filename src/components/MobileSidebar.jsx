@@ -33,7 +33,7 @@ function MobileSidebar({ isOpen, onClose }) {
 
   const downloadResume = () => {
     const link = document.createElement('a');
-    link.href = 'public\swarn_resume.pdf';    //LINK UPDATE
+    link.href = '/swarn_resume.pdf'; 
     link.download = 'Swarn_Resume.pdf';
     link.click();
     onClose();
