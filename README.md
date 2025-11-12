@@ -28,16 +28,6 @@ This is a **responsive personal portfolio website** built with **React, Vite,** 
 
 * Lucide React
 * React Icons
-
-**Particles:**
-
-* React TSParticles
-* TSParticles
-
-**Linting & Formatting:**
-
-* ESLint
-
 ---
 
 ## Getting Started
